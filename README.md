@@ -47,7 +47,7 @@ Before running this project, install:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Simple-Java-App.git
+git clone https://github.com/devrajesh16/Simple-Java-App.git
 ```
 
 Replace `YOUR_USERNAME` with your GitHub username.
