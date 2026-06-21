@@ -72,7 +72,7 @@ The Jenkins pipeline performs the following steps:
 
 ## CI/CD Workflow
 
-
+```
 Developer
      │
      ▼
@@ -89,6 +89,8 @@ Developer
      │
      ▼
  Application Deployment
+```
+
 
 
 
