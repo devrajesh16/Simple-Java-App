@@ -17,7 +17,6 @@ The project follows a basic CI/CD workflow where Jenkins builds the application,
 - GitHub
 - Linux
 
----
 
 ## Project Structure
 
@@ -46,27 +45,18 @@ Before running this project, install:
 
 ## Clone Repository
 
-```bash
 git clone https://github.com/devrajesh16/Simple-Java-App.git
-```
-
-Replace `YOUR_USERNAME` with your GitHub username.
-
----
 
 ## Build the Project
 
-bash
 mvn clean package
 
 ## Build Docker Image
 
-bash
 docker build -t simple-java-app .
 
 ## Run Docker Container
 
-bash
 docker run -d -p 8080:8080 simple-java-app
 
 ## Jenkins Pipeline
