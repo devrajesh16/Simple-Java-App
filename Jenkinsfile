@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the project from the 'project-1' branch in your GitHub repository
-                git branch: 'main', url: 'https://github.com/devrajesh16/zomato.git'
+                git branch: 'project-1', url: 'https://github.com/devrajesh16/zomato.git'
             }
         }
         stage('Build') {
