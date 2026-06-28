@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                mavenBuild()  //calling shared library function
+                mvn clean package
             }
         }
         stage('Post-Build') {
